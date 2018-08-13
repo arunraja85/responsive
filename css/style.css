@@ -1,0 +1,122 @@
+.bg-light {
+    background-color: black !important;
+    border-bottom: .05em solid coral;
+}
+
+@media (min-width: 700px){
+    .bg-light {
+        height: 6vh;
+    }
+}
+
+.navbar-brand img{
+    height: 4vh;
+}
+
+.nav-item.active .nav-link{
+    color: beige !important;
+}
+
+.nav-item .nav-link{
+    color: beige !important;
+}
+
+.nav-item{
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.navbar-toggler .navbar-toggler-icon{
+    background-color: aqua;
+    height:2vh;
+}
+.herounit{
+    height: 75vh;
+    width: 98vw;
+}
+.carousel-item img{
+    height: 75vh;
+    width: 80vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+
+}
+.carousel-caption h5{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+@media (max-width: 575.98px) { 
+    .carousel-caption h5{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+
+ }
+
+ @media (max-width: 250px) { 
+    .carousel-caption h5{
+        font-size: 5px;
+    }
+}
+@media (max-width: 249px) { 
+    .card{
+        display: none;
+    
+    }
+
+}
+@media (max-width: 250px) { 
+.card{
+    max-width: 98vw;
+    margin:1em;
+
+}
+.card h5{
+    font-size: 10px;
+}
+
+.card p{
+    font-size: 6px;
+}
+.card .btn{
+   display: none;
+}
+}
+
+@media (max-width: 575.98px) { 
+
+    .card{
+        max-width: 20vw;
+        margin:1em;
+    
+    }
+
+    .card .btn{
+        max-width: 5vw;
+    }
+
+    .card h5{
+        font-size: 10px;
+    }
+    
+    .card p{
+        font-size: 6px;
+    }
+}
+
+.card{
+    max-width: 30vw;
+    margin:1em;
+}
+
+.footer-section{
+    background-color: black;
+}
+
+
